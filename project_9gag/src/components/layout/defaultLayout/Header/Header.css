@@ -1,0 +1,301 @@
+/* style header  */
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 9999;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.header_menu {
+  display: block;
+  float: left;
+  height: 24px;
+  width: 40px;
+  margin-top: 16px;
+}
+
+a.header_logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  margin-top: 8px;
+  color: black;
+  display: block;
+  float: left;
+  width: 72px;
+  height: 48px;
+}
+
+.header_nav {
+  margin-right: 340px;
+  margin-left: 50px;
+}
+
+ul.header_nav_ul {
+  list-style-type: none;
+  overflow: hidden;
+  height: 48px;
+}
+.nameUserExisting img {
+  image-rendering: -webkit-optimize-contrast;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(165, 127, 202);
+  margin-right: 10px;
+  object-fit: cover;
+  transform: scale(1);
+  transform-origin: 0 0; /* Điểm neo */
+}
+.header_nav_ul li {
+  display: block;
+  float: left;
+}
+/* .flex_updateUser {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.header_nav_ul a {
+  display: block;
+  color: #000;
+  position: relative;
+  line-height: 48px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 8px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+
+  width: 305px;
+}
+
+.header_login {
+  display: flex;
+}
+
+.header_search {
+  padding: 6px 0;
+  float: left;
+  padding: 7px 11px;
+  border: 50% solid transparent;
+  border-radius: 50%;
+  position: relative;
+}
+.header_search_input {
+  position: absolute;
+  bottom: -50px;
+  left: -70px;
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  height: 50px;
+}
+.header_login {
+  display: flex;
+  align-items: center;
+}
+.header_search_input input {
+  width: 230px !important;
+  border: none !important;
+}
+.header_search_input input:focus {
+  outline: none;
+}
+.button_search {
+  border: none;
+  padding: 2px;
+}
+
+.nameUserExisting {
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+.header_search {
+  display: block;
+  float: left;
+  font-size: 20px;
+  color: #706c6c;
+}
+.header_search i {
+  padding: 7px;
+}
+.header_search i:hover {
+  background-color: #e0d9d9;
+  border-radius: 50%;
+}
+
+.header_search input {
+  padding: 7px 5px;
+  width: 250px;
+  height: 35px;
+
+  border: none;
+  background-color: gainsboro;
+}
+.header_btn {
+  display: inline-block;
+  color: #999;
+  line-height: 30px;
+  padding: 0 12px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.header_username {
+  width: 90px;
+  height: 30px;
+  color: #000000;
+  line-height: 20px;
+  padding: 0 20px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.header_logout {
+  width: 90px;
+  height: 20px;
+  display: inline-block;
+  line-height: 10px;
+  padding: 0 20px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #050505;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.header_btn_post {
+  color: #fff;
+  display: inline-block;
+  height: 36px;
+  padding: 8px 16px;
+  border-radius: 18px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #09f;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.header_btn_post:hover {
+  background-color: rgb(10, 108, 173);
+}
+.modal-content {
+  /* left: 10% !important; */
+  top: 50px !important;
+  /* max-height: 500px !important; */
+  max-width: 700px !important;
+}
+
+/* phần end Style header */
+
+.update_image {
+  margin-top: 20px;
+  text-align: center;
+}
+.update_image div {
+  padding: 50px 0px;
+}
+/* modal */
+.fade.modal-backdrop.show {
+  position: absolute;
+  z-index: 10;
+}
+
+/* .ant-modal-root {
+  position: relative;
+  z-index: 100;
+} */
+
+.title_upload {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.title_upload button {
+  border: none;
+  background-color: white;
+  color: #706c6c;
+  font-weight: bold;
+}
+.title_upload button:hover {
+  border-bottom: 2px solid #706c6c;
+}
+.form_add_user {
+}
+.upload_image img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(199, 29, 202);
+}
+
+.form_add_user {
+  border: 1px solid black;
+}
+.title_upload_imgae {
+  width: 40%;
+  text-align: center;
+  align-items: center;
+}
+.title_upload_user {
+  width: 60%;
+  text-align: center;
+  align-items: center;
+}
+.upload_image {
+  padding: 70px 0px;
+}
+.update_image {
+  background-color: #09f !important;
+  color: white !important;
+  padding: 10px 8px !important;
+  border-radius: 7px !important;
+}
+.update_image:hover {
+  background-color: #007aff !important;
+}
+.upload_image div input {
+  border: none;
+  text-align: center;
+}
+.upload_image div input:focus {
+  outline: none;
+}
+.form_add_user {
+  margin: 20px 0px;
+}
+
+.fade.modal.show {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(1px);
+}

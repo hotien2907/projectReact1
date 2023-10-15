@@ -1,0 +1,273 @@
+.body {
+  margin-top: 0px;
+  margin-bottom: 32px;
+  padding-top: 70px;
+}
+
+.main {
+  width: 550px;
+}
+
+.title {
+  font-size: 24px;
+  padding: 0px;
+  font-weight: 700;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.white_card {
+  background-color: white;
+  width: 960px;
+  height: 100%px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+
+.main_input_text_title {
+  width: 85%;
+  height: 45px;
+  margin-left: 75px;
+  margin-top: 40px;
+  border: 1px solid #eeeaea;
+  border-radius: 10px;
+}
+.main_input_text_title input {
+  font-weight: bold;
+  font-size: 20px !important;
+  color: #000 !important;
+  border-radius: 10px !important;
+  border: 2px solid rgb(200, 196, 196) !important;
+}
+
+.main_input_text_title input:focus {
+  outline: none;
+}
+
+.main_uploat_card {
+  width: 85%;
+  height: 392px;
+  margin: 16px auto;
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.main_uploat_card_content {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.main_uploat_card_content a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+  margin-top: 30px;
+  color: #000;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn_file {
+  width: 120px;
+  height: 30px;
+  background-color: #09f;
+  color: #fff;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.btn_file button {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(0, 153, 255);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.main_uploat_card_content {
+  position: relative;
+}
+
+.file_up {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+}
+
+/* .input_file[type="file"] {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  } */
+
+.file_up {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+#file {
+  position: absolute;
+  opacity: 0;
+  width: 120px;
+  height: 30px;
+  margin-left: 346px;
+  margin-top: 126px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+#file:hover {
+  cursor: pointer;
+}
+
+.btn_file button:hover {
+  cursor: pointer;
+}
+
+.or_text {
+  padding: 20px;
+  color: #d1d1d1;
+}
+
+.source_wapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main_file {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.text_input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #eeeaea;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.text_input:focus {
+  border-color: #09f;
+}
+
+.source_wapper button {
+  padding: 5px;
+  font-size: 14px;
+  background-color: rgb(202, 202, 202);
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+}
+.source_wapper input {
+  width: 290px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  color: #b9b9b9;
+}
+
+.source_wapper input::placeholder {
+  color: #d1d1d1;
+}
+
+.source_wapper button:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.hint {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+.main_uploat_card_content input:focus {
+  outline: none;
+}
+.main_uploat_card_content input {
+  border: 2px solid rgb(182, 179, 179)!important;
+  border-radius: 5px !important;
+}
+.main_input_text_tag_url {
+  width: 85%;
+  height: 45px;
+  border: 1px solid #eeeaea;
+  border-radius: 10px;
+}
+
+.main_input_text_tag input:focus {
+  outline: none;
+}
+
+.button_post {
+  margin-left: 46%;
+}
+
+.button_post button {
+  padding: 8px 25px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+  background-color: rgb(87, 188, 255);
+  color: #fff;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.button_post button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 111, 185);
+}
+
+textarea {
+  width: 85%;
+  height: 100px;
+  margin-left: 55px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}

@@ -1,0 +1,106 @@
+/* phàn table */
+.style-table img {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+}
+.add_user {
+  display: flex;
+  justify-content: right;
+}
+/* CSS */
+.add_user button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add_user button:hover {
+  background-color: #0056b3;
+}
+.table_list {
+  margin: 0 auto;
+  margin: 10px;
+}
+.table_list h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.styled-table {
+  width: 1000px;
+
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+ 
+  background-color: gray;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  text-align: center;
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.styled-table tbody tr td button {
+
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.styled-table tbody tr td .btn-denger {
+  background-color: red;
+}
+.styled-table tbody tr td .btn-anpha-b {
+  background-color: rgb(29, 29, 199);
+}
+.styled-table tbody tr td .btn-denger:hover {
+  cursor: pointer;
+}
+.styled-table tbody tr td .btn-edit:hover {
+  cursor: pointer;
+}
+.styled-table tbody tr td .btn-anpha-b:hover {
+  cursor: pointer;
+}
+
+.custom-select {
+  appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.custom-select:focus {
+  padding: 10px;
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

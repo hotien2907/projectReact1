@@ -1,0 +1,18 @@
+.img_post_user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(165, 127, 202);
+  margin-right: 10px;
+  object-fit: cover;
+}
+.img_post_admin img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(14, 32, 229);
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+ 
+}

@@ -1,0 +1,106 @@
+/* CSS cho modal Sign Up */
+.modalSignUp {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #999;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+.modal-content-singup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.modal-content-singup i:hover {
+  color: rgb(101, 233, 189);
+}
+.modal-content-singup a {
+  margin-right: -20px;
+}
+#password,
+#repassword {
+  width: 100%;
+  padding: 10px;
+  /* margin-bottom: 5px; */
+  border: 1px solid #999;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+
+.modal-content::-webkit-scrollbar {
+  display: none;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content input[type="password"],
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.from-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+.from-group i {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(-50%, -50%);
+}
+.form-group_error {
+  position: relative;
+  margin-bottom: 30px;
+}
+.form-group_error i {
+  position: absolute;
+  top: 20%;
+  right: 2%;
+}
+button[type="submit_btn"] {
+  background-color: #09f;
+  width: 100px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button[type="submit_btn"]:hover {
+  background-color: #1479d8;
+}
+.error {
+  color: red;
+  font-style: italic;
+  font-weight: 400;
+}
+.login_btn {
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.login_btn:hover {
+  background-color: rgb(163, 163, 163);
+  color: #fff;
+}

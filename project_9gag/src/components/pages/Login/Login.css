@@ -1,0 +1,70 @@
+/* CSS cho modal Login */
+
+/* .modalLogin {
+  display: none;
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+
+.modalLogin-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #999;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+button[type="submit_login"] {
+  background-color: #09f;
+  width: 100px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button[type="submit_login"]:hover {
+  background-color: #1479d8;
+}
+
+.signup_btn {
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.signup_btn:hover {
+  background-color: rgb(163, 163, 163);
+  color: #fff;
+}
+
+#username_error,
+#email_error,
+#password_error,
+#repassword_error,
+#password_login_error {
+  width: 100%;
+
+  margin-bottom: 10px;
+  color: red;
+}
+
+#login-form-password,
+#login-form-username {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
